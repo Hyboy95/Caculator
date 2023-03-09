@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <table>
+      <tr>
+        <td id="display" colspan="7"><span id="result"></span></td>
+      </tr>
+      <tr>
+        <td><button class="btn">Rad</button></td>
+        <td><button class="btn">Deg</button></td>
+        <td><button class="btn">x!</button></td>
+        <td><button class="btn" value="(">(</button></td>
+        <td><button class="btn" value=")">)</button></td>
+        <td><button class="btn" value="%">%</button></td>
+        <td><button class="btn" onclick="clean()">AC</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn">Inv</button></td>
+        <td><button class="btn" id='sin(' value="sin(">sin</button></td>
+        <td><button class="btn" value="ln(">ln</button></td>
+        <td><button class="btn number" value="7">7</button></td>
+        <td><button class="btn number" value="8">8</button></td>
+        <td><button class="btn number" value="9">9</button></td>
+        <td><button class="btn" value="/">÷</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn" value="3.14">π</button></td>
+        <td><button class="btn" value="cos(">cos</button></td>
+        <td><button class="btn" value="log(">log</button></td>
+        <td><button class="btn number" value="4">4</button></td>
+        <td><button class="btn number" value="5">5</button></td>
+        <td><button class="btn number" value="6">6</button></td>
+        <td><button class="btn" value="*">x</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn" value="e">e</button></td>
+        <td><button class="btn" value="tan(">tan</button></td>
+        <td><button class="btn" value="sqrt(">√</button></td>
+        <td><button class="btn number" value="1">1</button></td>
+        <td><button class="btn number" value="2">2</button></td>
+        <td><button class="btn number" value="3">3</button></td>
+        <td><button class="btn" value="-">-</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn" value="Ans">Ans</button></td>
+        <td><button class="btn" >EXP</button></td>
+        <td><button class="btn">x<sup>y</sup></button></td>
+        <td><button class="btn number" value="0">0</button></td>
+        <td><button class="btn number" value=".">.</button></td>
+        <td><button class="btn equal" onclick="equal()">=</button></td>
+        <td><button class="btn" value="+">+</button></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
+<script src="script.js"></script>
